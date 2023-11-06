@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack{
+            VStack{
+                TodoItem(text1: "Call suto body shop", text2: "2023-11-16")
+                
+                TodoItem(text1: "Feed Piper", text2: "Tomorroe,8:00AM.Daily")
+            
+                TodoItem(text1: "Write lesson about interative apps", text2: "Tomorrow, 6:00 PM")
+                
+            }
+            .border(.red)
         }
-        .padding()
     }
 }
 

@@ -10,7 +10,7 @@
 		8B4625012AF977890005E55A /* ReminderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4625002AF977890005E55A /* ReminderAppApp.swift */; };
 		8B4625032AF977890005E55A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4625022AF977890005E55A /* ContentView.swift */; };
 		8B4625052AF9778B0005E55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4625042AF9778B0005E55A /* Assets.xcassets */; };
-		8B4625082AF9778B0005E55A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4625072AF9778B0005E55A /* Preview Assets.xcassets */; };
+		8B4625132AF978670005E55A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4625122AF978670005E55A /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		8B4625002AF977890005E55A /* ReminderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderAppApp.swift; sourceTree = "<group>"; };
 		8B4625022AF977890005E55A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B4625042AF9778B0005E55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B4625072AF9778B0005E55A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B4625122AF978670005E55A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		8B4625062AF9778B0005E55A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8B4625072AF9778B0005E55A /* Preview Assets.xcassets */,
+				8B4625122AF978670005E55A /* Tab.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4625082AF9778B0005E55A /* Preview Assets.xcassets in Resources */,
 				8B4625052AF9778B0005E55A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4625132AF978670005E55A /* Tab.swift in Sources */,
 				8B4625032AF977890005E55A /* ContentView.swift in Sources */,
 				8B4625012AF977890005E55A /* ReminderAppApp.swift in Sources */,
 			);
