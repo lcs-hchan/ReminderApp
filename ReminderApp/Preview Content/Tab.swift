@@ -19,11 +19,11 @@ struct TodoItem: View {
             Image(systemName: "circle")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 40)
+                .frame(width: 20)
             VStack{
+                
                 HStack {
                     Text(text1)
-                        .font(.largeTitle)
                     Spacer()
                 }
                 HStack {
